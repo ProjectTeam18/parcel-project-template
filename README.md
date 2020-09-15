@@ -1,5 +1,7 @@
 # parcel-project-template
 
+TEST
+
 ## Developing
 
 ### Prerequisites
