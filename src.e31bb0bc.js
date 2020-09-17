@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./../images/mobile/Vector-mob.jpg":[["Vector-mob.2d69982f.jpg","images/mobile/Vector-mob.jpg"],"images/mobile/Vector-mob.jpg"],"./../images/tablet/Vector-tab.jpg":[["Vector-tab.59146dc7.jpg","images/tablet/Vector-tab.jpg"],"images/tablet/Vector-tab.jpg"],"./../images/desktop/Vector-desk.jpg":[["Vector-desk.10cfc98a.jpg","images/desktop/Vector-desk.jpg"],"images/desktop/Vector-desk.jpg"],"./../images/border-icon.svg":[["border-icon.6699babd.svg","images/border-icon.svg"],"images/border-icon.svg"],"./../images/border-icon-desk.svg":[["border-icon-desk.2ba50f19.svg","images/border-icon-desk.svg"],"images/border-icon-desk.svg"],"./../images/bg-fire.png":[["bg-fire.0d14e661.png","images/bg-fire.png"],"images/bg-fire.png"],"./../images/svg/section-teacher-vector-phone.svg":[["section-teacher-vector-phone.539aaf1d.svg","images/svg/section-teacher-vector-phone.svg"],"images/svg/section-teacher-vector-phone.svg"],"./../images/svg/we-garantee-fire.svg":[["we-garantee-fire.ec414194.svg","images/svg/we-garantee-fire.svg"],"images/svg/we-garantee-fire.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52015" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55298" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
