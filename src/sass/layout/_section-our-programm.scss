@@ -1,5 +1,5 @@
 .section-our-program {
-  // position: relative;
+  position: relative;
   background-color: #111518;
   color: #b9b9b9;
   overflow: hidden;
@@ -297,10 +297,10 @@
 
 
 
-.program-advant-title{
+h2.program-advant-title{
   margin: 0;
   padding-right: 100px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   text-align: start;
 
   color: $title-white;
@@ -311,7 +311,6 @@
   letter-spacing: 0.03em;
 
   @include for-size(tablet) {
-    margin-bottom: 25px;
     padding: 0;
 
     font-size: 26px;
@@ -338,7 +337,7 @@
   }
 
   @include for-size(desktop) {
-    padding: 70px 113px;
+    padding: 70px 82px;
   }
 }
   
@@ -428,8 +427,9 @@
   }
 }
 
-.program-advant-item > p.program-advant-descr{
+p.program-advant-descr{
   margin: 0;
+  opacity: 1;
 
   color: $title-black;
 
