@@ -2,7 +2,6 @@
   position: relative;
   background-color: #111518;
   color: #b9b9b9;
-  overflow: hidden;
   background-repeat: no-repeat;
 
   @include for-size(desktop) {
@@ -117,7 +116,6 @@
     }
 
     @include for-size(tablet) {
-      // margin-bottom: 4px;
       font-size: 12px;
       line-height: 1.67;
     }
@@ -151,7 +149,7 @@
         left: -26px;
       }
       @include for-size(tablet) {
-        height: 705px;
+        height: 680px;
         left: -56px;
       }
       @include for-size(desktop) {
@@ -167,15 +165,18 @@
 
     @include for-size(phone) {
       width: 204px;
+      margin-bottom: 50px;
     }
 
     @include for-size(tablet) {
       width: 540px;
+      margin-bottom: 190px;
     }
 
     @include for-size(desktop) {
       display: flex;
       justify-content: center;
+      margin-bottom: 164px;
       &::before {
         content: '';
         display: block;
