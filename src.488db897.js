@@ -16,4 +16,4 @@ var i;!function(e){"use strict";"function"==typeof i&&i.amd?i(["jquery"],e):"und
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=s(require("jquery"));function s(e){return e&&e.__esModule?e:{default:e}}function r(e,s,r){return s in e?Object.defineProperty(e,s,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[s]=r,e}require("slick-carousel"),require("./sass/main.scss"),require("./modal.js"),(0,e.default)(document).ready(function(){var s;(0,e.default)(".slider").slick({slidesToShow:1,slidesToScroll:1,dots:!1,asNavFor:".slider-nav"}),(0,e.default)(".slider-nav").slick((r(s={dots:!1,slidesToShow:4,asNavFor:".slider",arrows:!1},"slidesToShow",7),r(s,"slidesToScroll",1),r(s,"focusOnSelect",!0),r(s,"responsive",[{breakpoint:768,settings:{slidesToShow:3,slidesToScroll:1}}]),s))});
 },{"jquery":"juYr","slick-carousel":"QAGU","./sass/main.scss":"clu1","./modal.js":"hR3q"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.5dc6343c.js.map
+//# sourceMappingURL=/parcel-project-template/src.488db897.js.map
