@@ -108,11 +108,11 @@
     font-weight: 500;
     opacity: 0.5;
     margin: 0px;
+    letter-spacing: 0.08em;
 
     @include for-size(phone) {
       font-size: 12px;
       line-height: 1.67;
-      letter-spacing: 0.08em;
       color: #b9b9b9;
     }
 
@@ -267,15 +267,19 @@
     }
     @include for-size(tablet) {
       display: flex;
-      li {
+      > li {
         margin-right: 50px;
       }
-      li:nth-child(1) {
+      > li:nth-child(1) {
         min-width: 176px;
       }
 
-      li:nth-child(2) {
-        width: 155px;
+      > li:nth-child(2) {
+        min-width: 155px;
+      }
+
+      > li:nth-child(3) {
+        min-width: 110px;
       }
     }
     @include for-size(desktop) {
